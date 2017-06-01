@@ -1,0 +1,67 @@
+[
+    {
+        "name": "typisttech/wp-better-settings",
+        "version": "0.13.0",
+        "version_normalized": "0.13.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TypistTech/wp-better-settings.git",
+            "reference": "39b2e1e95fe66b35467823edcdf92cb992c2dea7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TypistTech/wp-better-settings/zipball/39b2e1e95fe66b35467823edcdf92cb992c2dea7",
+            "reference": "39b2e1e95fe66b35467823edcdf92cb992c2dea7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">7.0"
+        },
+        "require-dev": {
+            "codeception/aspect-mock": "^2.0",
+            "jakoch/phantomjs-installer": "^2.1",
+            "lucatume/wp-browser": "^1.19",
+            "neronmoon/scriptsdev": "^0.1.1",
+            "site5/phantoman": "^1.1",
+            "wp-coding-standards/wpcs": "^0.11.0"
+        },
+        "time": "2017-05-11 14:43:56",
+        "type": "library",
+        "extra": {
+            "scripts-dev": {
+                "post-install-cmd": "@install-dev-extra",
+                "post-update-cmd": "@install-dev-extra"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TypistTech\\WPBetterSettings\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Tang Rufus",
+                "email": "tangrufus@gmail.com",
+                "homepage": "https://www.typist.tech/",
+                "role": "Developer"
+            },
+            {
+                "name": "Typist Tech",
+                "email": "wp-better-settings@typist.tech",
+                "homepage": "https://www.typist.tech/"
+            }
+        ],
+        "description": "A simplified OOP implementation of the WP Settings API",
+        "homepage": "https://www.typist.tech/projects/wp-better-settings",
+        "keywords": [
+            "settings api",
+            "wordpress",
+            "wp"
+        ]
+    }
+]

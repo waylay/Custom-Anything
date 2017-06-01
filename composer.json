@@ -1,0 +1,5 @@
+{
+    "require": {
+        "typisttech/wp-better-settings": "^0.13.0"
+    }
+}
